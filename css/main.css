@@ -1,0 +1,679 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+img{
+  width:100%;
+}
+figure{
+  margin:0;
+}
+h3{
+  font-family:"Red Hat Text", sans-serif;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html{
+  font-size:16px;
+}
+body{
+  width:100%;
+}
+/***MOBILE STYLES***/
+p{
+  font-size:1.1em;
+  font-family:"Red Hat Text", sans-serif;
+}
+header #home-wrapper {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background:#9e0b0f;
+  
+}
+.business-name{
+  width:100%;
+  text-align:center;
+}
+header .business-name h2{
+  font-family:"Rouge Script", cursive;
+  font-size:3em;
+  color:white;
+  line-height:75%;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+header .business-name h3{
+  font-family: "Red Hat Text", sans-serif;
+  font-size:1.5em;
+  color:white;
+  text-transform: uppercase;
+  line-height:75%;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+header .business-name h4{
+  font-family: "Red Hat Text", sans-serif;
+  font-size:1em;
+  color:white;
+  line-height:75%;
+  margin-top: 30px;
+}
+
+#home-wrapper nav{
+  width:100%;
+}
+.container {
+  display:flex;
+  flex-flow:row nowrap;
+  list-style-type:none;
+  padding-left:0px;
+  justify-content: space-around;
+}
+
+.container li a {
+  color:white;
+  text-transform: uppercase;
+  font-size: .9em;
+  display:inline-block;
+  font-family: "Red Hat Text", sans-serif;
+  text-decoration:none;
+
+}
+.header-divider {
+  background: gray; 
+  height: 2px;
+  width: 100%;
+ 
+}
+.locations{
+  width:100%;
+ background-color:#9e0b0f;
+  
+}
+.locations .wrapper{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  list-style-type: none;
+  margin:0px;
+  padding-right:10px;
+  padding-left:10px;
+}
+.locations .wrapper li {
+  font-size: .9em;
+  flex-basis:25%;
+  color:white;
+  font-family: "Red Hat Text", sans-serif;
+}
+.description{
+  margin:15px;
+}
+.button a {
+  background-color:white;
+  color:#9e0b0f;
+  padding:3px;
+  font-size:1em;
+  text-align:center;
+  border:1px solid gray;
+  text-decoration:none;
+  margin:40px 0;
+  max-height:30px;
+}
+.button{
+  display:flex;
+  justify-content:space-around;
+  background-color:#9e0b0f;
+  color:white;
+  font-family: "Red Hat Text", sans-serif;
+}
+.button p{
+  padding-top:25px;
+}
+.box{
+  border-top:8px solid #9e0b0f;
+}
+figure{
+  border:3px solid white;
+}
+#testimonials{
+  background:rgba(158,11,15,0.3);
+  padding:15px;
+  font-family:"Red Hat Text", sans-serif;
+  text-align:center;
+}
+footer {
+  text-align: center;
+  flex-direction: column;
+  background:#9e0b0f;
+  color:white;
+  font-family: "Red Hat Text", sans-serif;
+  padding-bottom:20px;
+  
+}
+#call-us{
+  padding-top:20px;
+}
+#call-us h4{
+  font-family: "Rouge Script", cursive;
+  font-size:2em;
+  margin:0;
+}
+.holder{
+  border-bottom:1px solid white;
+}
+.office-mail{
+  border-bottom:1px solid white;
+}
+/* ==========================================================================
+   Gallery Page
+   ========================================================================== */
+
+.intro{
+  padding:15px;
+}
+.intro h2{
+  font-family: "Red Hat Text", sans-serif;
+  font-size:1.5em;
+}
+.before-after2 p{
+  color:black;
+  padding-left:10px;
+}
+hr{
+  display:block;
+  overflow:hidden;
+  border-style:inset;
+  height:15px;
+  background-color:#9e0b0f;
+}
+  
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media only screen and (min-width:768px) {
+  /*Tablet styles here*/
+
+  /* General styles */
+ 
+  
+  header .business-name h2{
+    font-size:2.8em;
+  }
+  header .business-name h3{
+    font-size:1.5em;
+  }
+  header .business-name h4{
+    font-size:1.5em;
+  }
+  #home-wrapper {
+    max-width: 768px;
+  }
+  .container{
+    width:100%;
+    display:flex;
+    flex-flow:row nowrap;
+    
+  }
+  .container li {
+    font-size: 1em;
+  }
+  .locations .wrapper li{
+    font-size:1.2em;
+  }
+  #home-wrapper nav{
+    width:100%;
+  }
+  .wrapper{
+    display:flex;
+  flex-flow:nowrap;
+  list-style-type:none;
+}
+.wrapper li{
+  display:flex;
+  flex-basis:20%;
+  list-style-type: none;
+}
+.description{
+  font-family:"Red Hat Text", sans-serif;
+}
+.description h3{
+  font-size:1.5em;
+  margin:10px;
+}
+.description p{
+  font-size:1.2em;
+}
+.holder{
+  display:flex;
+  flex-flow:row nowwrap;
+  
+}
+.box{
+  border-top:10px solid #9e0b0f;
+}
+.button p{
+  font-size:1.5em;
+  padding-top:15px;
+}
+#testimonials p{
+  padding:25px;
+  font-size:1.1em;
+}
+#testimonials h3{
+  font-size:2em;
+}
+#call-us h4{
+  font-size:2.8em;
+}
+.holder, .office-mail, .office-phone{
+  display:flex;
+  flex-basis:50%;
+  justify-content:space-around;
+}
+#call-us .content-wrapper{
+  margin:0;
+}
+.contact-info{
+  font-size:1.2em;
+}
+/*=================================
+Gallery Page
+===============================*/
+.photos{
+  display:flex;
+  flex-flow:row wrap;
+  flex-basis:50%;
+  justify-content:center;
+}
+figure{
+  border:15px solid white;
+}
+.intro{
+  font-family:"Red Hat Text", sans-serif;
+  padding:35px; 
+}
+.intro h2{
+  font-size:1.8em;
+}
+.intro p{
+  font-size:1.3em;
+}
+.before-after2 p{
+  font-size:1.3em;
+  padding-left:40px;
+}
+.before-after2{
+  display:flex;
+  flex-flow:row wrap;
+  flex-basis:50%;
+  justify-content:center;
+}
+
+.before-after3{
+  display:flex;
+  flex-flow:row wrap;
+  flex-basis:50%;
+  justify-content:center;
+}
+
+hr{
+  border:15px solid #9e0b0f;
+  border-radius:8px;
+  width:100%;
+}
+  }
+  @media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+
+  header #home-wrapper{
+      padding-top:20px;
+    }
+  #home-wrapper{
+  max-width:1440px;
+}  
+.container li{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:space-around;
+  flex-basis:20%;
+}
+header .business-name h2{
+  font-size:3em;
+}
+header .business-name h3{
+  font-size:1.6em;
+}
+header .business-name h4{
+  font-size:1.6em;
+}
+.locations{
+  background:#9e0b0f;
+  color:white;
+  font-family: "Red Hat Text", sans-serif;
+  font-size:1.2em;
+  padding:10px;
+}
+.wrapper li{
+  padding-left:60px;
+}
+#about .content-wrapper{
+  display:flex;
+  flex-flow:row nowrap;
+}
+.description{
+  display:flex;
+  flex-flow:row wrap;
+  font-family: "Red Hat Text", sans-serif;
+  font-size:1.2em;
+  padding:25px;
+}
+.description p{
+  font-size:1.2em;
+}
+.projects{
+  display:flex;
+  flex-flow:row nowrap;
+
+}
+.projects figure{
+  display:flex;
+  flex-basis: 33%;
+  padding:8px;
+  height:350px;
+}
+.button p{
+  font-size:1.8em;
+}
+.button a{
+  font-size:1.5em;
+  padding-bottom:8px;
+}
+#testimonials h3{
+  font-size:1.5em;
+}
+#testimonials p{
+  font-size:1.1em;
+}
+#call-us h4{
+  font-size:3em;
+}
+
+/*==============================
+Gallery Page
+================================*/
+.photos{
+  display:flex;
+  flex-flow:row wrap;
+  flex-basis:33%;
+  
+}
+.intro{
+  padding:30px;
+}
+.intro h2{
+  font-size:2.2em;
+}
+.intro p{
+  font-size:1.5em;
+}
+.before-after2 p{
+  font-size:1.5em;
+  padding:30px;
+}
+figure{
+  width:1366px;
+}
+  }
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
